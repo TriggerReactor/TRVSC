@@ -43,19 +43,11 @@
 					"patterns": [
 						{
 							"name": "keyword.control.TriggerReactor",
-							"match": "\\b(IF|ELSE|ELSEIF|ENDIF|IS|WHILE|ENDWHILE|FOR|ENDFOR|TRY|CATCH|FINALLY|ENDTRY|LAMBDA|ENDLAMBDA)\\b"
-						},
-						{
-							"name": "keyword.control.TriggerReactor",
-							"match": "\\b(if|else|elseif|endif|is|while|endwhile|for|endfor|try|catch|finally|endtry|lambda|endlambda)\\b"
+							"match": "\\b(IF|ELSE|ELSEIF|ENDIF|IS|WHILE|ENDWHILE|FOR|ENDFOR|TRY|CATCH|FINALLY|ENDTRY|LAMBDA|ENDLAMBDA|SWITCH|CASE|DEFAULT|ENDSWITCH)\\b"
 						},
 						{
 							"name": "entity.name.namespace",
 							"match": "\\b(SYNC|ENDSYNC|ASYNC|ENDASYNC)\\b"
-						},
-						{
-							"name": "entity.name.namespace",
-							"match": "\\b(sync|endsync|async|endasync)\\b"
 						},
 						{
 							"name": "keyword.control.ternary.TriggerReactor",
@@ -135,7 +127,7 @@
 		},
 		"executors": {
 			"name": "entity.other.inherited-class.triggerreactor",
-			"match": "^\\s*#[A-Z|a-z]+"
+			"match": "#[A-Z|a-z]+\\s"
 		},
 		"placeholders": {
 			"name" : "variable.parameter",

@@ -4,7 +4,7 @@
   "description": "Support for TriggerReactor scripts",
   "icon": "icons/TRGLogo.png",
   "repository": "https://github.com/Cupelt/triggerreactor-vscode",
-  "version": "1.0.1-Release",
+  "version": "1.0.2-Release",
   "publisher": "TriggerReactor",
   "engines": {
     "vscode": "*"
